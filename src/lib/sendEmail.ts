@@ -18,7 +18,6 @@ export const sendEmail = async (formData: FormData) => {
             error: 'Email and message are required'
         }
     }
-    console.log('Is this ran?');
     await resend.emails.send({
         from: 'Contact form <onboarding@resend.dev>',
         to: 'resend.strained461@passmail.net',
