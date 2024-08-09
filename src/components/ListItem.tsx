@@ -18,7 +18,7 @@ export default function ListItem({ post }: Props) {
         const { id, title, image, date, tag} = post
         const formattedDate = getFormattedDate(date)
     return (
-        <div className='mx-2 mt-5'>
+        <div className='mx-2 mt-4'>
             <Link href={`/posts/${id}`}>
                 <Card className='w-60 h-96 relative bg-secondary rounded-lg flex flex-col items-center'>
                     <CardContent className='bg-cover bg-center bg-no-repeat p-4' style={{ backgroundImage: `url(${image})` }}>

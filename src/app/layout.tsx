@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={ubuntu.className}>
+    <html lang="en" style={{scrollBehavior:'smooth'}}>
+      <body className={ubuntu.className} >
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="mx-32 flex justify-between items-center">
+        <footer className="md:mx-32 mx-8 flex justify-between items-center my-8">
             <p>&copy; 2024 Sander Eikenes. All rights reserved</p>
             <ul className="flex">
                 <Link href="https://www.instagram.com/sandreikenes/">
