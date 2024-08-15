@@ -59,7 +59,7 @@ export default function Home() {
               <p>
                 <span className="text-accent">&#60;p&#62;</span><br/>
                 <span className="text-accent text-2xl">Hello!</span><br/>
-                I'm a web developer from Norway, I love to create websites and applications that help businesses grow their customer base. I'm a big fan of NextJS and TailwindCSS, and I love to learn new things. I'm currently working on a project that will help businesses create websites faster and easier.
+                I'm a web developer from Norway, I love to create websites and applications that help businesses grow their customer base. I'm a big fan of NextJS and TailwindCSS, and I love to learn new things.
                 <br/><span className=" text-accent">&#60;/p&#62;</span>
               </p>
             </div>
