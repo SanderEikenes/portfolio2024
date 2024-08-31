@@ -33,15 +33,14 @@ export default function Home() {
           {/* Middle part */}
           <div className="mx-20">
             <h2 className="font-bold text-4xl"><span className="text-lg text-accent">&#60;h1&#62;</span><br/>Hey<br /> I'm <span className="text-accent">Sander</span>,<br />Web developer <span className="text-lg text-accent">&#60;/h1&#62;</span></h2>
-            <p className="mt-4"><span className=" text-accent">&#60;p&#62;</span><br/>I help businesses grow their customer base with websites!<br/><span className=" text-accent">&#60;/p&#62;</span></p>
             <Link href={"/#contact"}><h2 className="text-4xl text-accent mt-4 flex items-center">Let's get in contact! <Mail className="mx-2" size={30}/></h2></Link>
           </div>
           {/* Right part */}
           <div className="w-auto h-full rounded-xl bg-secondary mx-20 md:flex hidden flex-col items-center">
-            <h3 className="text-3xl my-4 mx-8">How to get a website?</h3>
+            <h3 className="text-3xl my-4 mx-8">Want a website?</h3>
             <h3 className="text-3xl my-4 mx-8"><span className="text-accent">1. </span>Contact</h3>
-            <h3 className="text-3xl my-4 mx-8"><span className="text-accent">2. </span>Meeting</h3>
-            <h3 className="text-3xl my-4 mx-8"><span className="text-accent">3. </span>Building...</h3>
+            <h3 className="text-3xl my-4 mx-8"><span className="text-accent">2. </span>Meet</h3>
+            <h3 className="text-3xl my-4 mx-8"><span className="text-accent">3. </span>Wait...</h3>
             <h3 className="text-3xl my-4 mx-8"><span className="text-accent">4. </span>Done!</h3>
           </div>
         </div>
@@ -59,7 +58,7 @@ export default function Home() {
               <p>
                 <span className="text-accent">&#60;p&#62;</span><br/>
                 <span className="text-accent text-2xl">Hello!</span><br/>
-                I'm a web developer from Norway, I love to create websites and applications that help businesses grow their customer base. I'm a big fan of NextJS and TailwindCSS, and I love to learn new things.
+                I'm a web developer and Cyber security student based in Bergen, Norway. I usually build using the nextJS framework.
                 <br/><span className=" text-accent">&#60;/p&#62;</span>
               </p>
             </div>
